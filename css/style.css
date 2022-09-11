@@ -100,7 +100,59 @@ section {
   align-items: center;
   color: #0D1D26;
 }
+#hero{
+  background-color: #F4F9FB !important;
+}
+.hero h5{
+  color: #77BCD9 !important ;
+  
+}
+.hero h1{
+  
+font-size: 50px;
+font-weight: 700 !important;
+line-height: 65px;
+letter-spacing: 0em;
+word-spacing: 2px;
 
+}
+.hero-text h1 span{
+color: #77BCD9 ;
+}
+.hero img{
+  float: right;
+}
+.hero p{
+  
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+.hero a.btn{
+ color:#ffffff;
+width: 197px;
+height: 57px;
+padding: 15px;
+background: #1B3A4C;
+border-radius: 4px;
+}
+#glad-you{
+  background-color: #F5F5F5;;
+}
+#glad-you p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#glad-you a.btn{
+  color:#ffffff;
+ width: 197px;
+ height: 57px;
+ padding: 15px;
+ background: #1B3A4C;
+ border-radius: 4px;
+
+}
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Laptop*/
