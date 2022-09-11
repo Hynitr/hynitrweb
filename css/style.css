@@ -7,6 +7,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: poppins;
+  src: url(../font/Poppins-Black.ttf);
+  font-weight: bold;
+}
+
 *,
 *::before,
 *::after {
@@ -47,10 +53,15 @@ li {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5  {
+
+  font-family: 'Poppins';
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: hynitrfont;
+  font-family: 'hynitrfont';
 }
 
 body {
@@ -64,11 +75,42 @@ section {
 
 
 
+#features h2{
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #232425;
+
+}
+
+
+#features p {
+
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #0D1D26;
+}
+
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Laptop*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* STYLES GO HERE */
+
+    #features h2 {
+
+      font-size: 24px;
+    }
   }
   
   /* For 640 Resolution - mobile */
