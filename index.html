@@ -72,26 +72,71 @@
 </head>
 
 <body>
+  <!---------navigation----------->
+  <nav class="navbar  navbar-expand-xl navbar-dark fixed-top ">
+    <div class="container">
+      <a href="#" class="navbar-brand fw-bold"> 
+          <img src="img/hynitr-wordmark-logo.png" >  </a>
+      <a class="navbar-toggler" type="button"
+        data-bs-toggle="offcanvas" 
+        data-bs-target="#navbarOffcanvas"
+        aria-controls="navbarOffcanvas"
+        aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+    </a>
+      <div class="offcanvas offcanvas-start " id="navbarOffcanvas"
+          tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">
+                <a href="#" class="navbar-brand fw-bold"> 
+              <img src="img/hynitr-wordmark-logo.png" >  </a></h5>
+            <button type="button" class="btn-close btn-close-black " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">          
+            <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <a class="nav-item nav-link active " aria-current="page" href="#">Home</a>
+              <a class="nav-item nav-link  " href="#about">About</a>
+              
+              <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects done
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#testimonials">Past clients</a></li>
+                      <li><a class="dropdown-item" href="#">Our Softwares</a></li>
+                  </ul>
+              </div>
+              <a class="nav-item nav-link" href="#">Services</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+      </div>  
+    </div>
+  </nav>
 
+   <!---------navigation ends----------->
   <!-------hero section--------->
 
 
-<section id="hero" class="hero">
+<section id="hero" class="hero pt-5 mt-5">
 
-<div class="container">
+<div class="container pb-5">
   <div class="row">
 
 
-<div class="col-lg-6 col-md-12">
+<div class="col-lg-6 col-md-12 col-xs-6 ">
   <div class="hero-text">
-  <div class="line">
-    <h5 class="border-start animate__animated animate__slideInDown animate__delay-1s">Digital solution</h5>
+  <div class="line border-start border-info me-5">
+    <h5 class=" animate__animated animate__slideInDown animate__delay-1s  pt-4 mb-2">Digital solution</h5>
   </div>
-<h1 class="mb-0 animate__animated animate__bounceInLeft animate__delay-1.5s fw-normal">The One <span>Solution</span> to Your Business Growth</h1>
+<h1 class="mb-0 animate__animated animate__bounceInLeft animate__delay-1.5s fw-normal mt-2">The One <span>Solution</span> to Your Business Growth</h1>
 <img src="img/Vector (12).png" class="">
 <div class="curved-line"></div>
 
-<p class="mt-5 pt-5 mb-5">With over 5.4million new businesses founded annually. Here <br>is a modern solution to business growth.</p>
+<p class="mt-5 pt-5 mb-5 ">With over 5.4million new businesses founded annually. Here <br>is a modern solution to business growth.</p>
 
 <a href="#" class="btn text-center">Find Out How</a>
   </div>
@@ -119,7 +164,7 @@
 
       <div class="col-lg-6 col-md-12 mt-5">
         <h1 >Glad you took the bold <br> step!</h1>
-        <p class="text-start mt-3 mb-5">Ever thought of a group of people passionate about you and your brand
+        <p class="text-start mt-5 mb-5">Ever thought of a group of people passionate about you and your brand
            growth? That’s who we are, A team of creatives who came together to see you grow </p>
            <a href="#" class="btn text-center"> Contact Us</a>
           
@@ -136,13 +181,16 @@
   <!--------glad you took---------->
   </body>
 
-  
+  <script src= "js/index.js"></script>
   <script src="js/jquery.min.js "></script>
-  <script src="js/jquery.min.map.js"></script>
   <script src="js/bootstrap.min.js "></script>
   <script src="js/popper.min.js "></script>
   <script src="js/fontawesome.min.js "></script>
-  <script src="js/typed.js"></script>
+  <script src="js/jquery.min.map.js"></script>
+  <script src="js/index.js"></script>
+  <!-- <script src="js/typed.js"></script> -->
+ 
+
 
   <!---<script>
     var typed = new Typed(".typed-words", {
