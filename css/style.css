@@ -74,7 +74,7 @@ section {
 }
 
 .navbar{
-  background-color:#F4F9FB !important;
+  background-color:#F5F5F5 !important;
  
   
 }
@@ -180,6 +180,12 @@ height: 57px;
 padding: 15px;
 background: #1B3A4C;
 border-radius: 4px;
+}
+.hero .line{
+  width: 80px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #77BCD9 !important;
 }
 /***************HERO SECTION ENDS******************/
 
