@@ -53,15 +53,18 @@ li {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5  {
-
-  font-family: 'Poppins';
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins";
 }
 
 p {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'hynitrfont';
+  font-family: "hynitrfont";
 }
 
 body {
@@ -73,35 +76,32 @@ section {
   margin: 0px;
 }
 
-.navbar{
-  background-color:#F5F5F5 !important;
- 
-  
-}
-.offcanvas{
-  background-color: #F5F5F5;
-  
+.navbar {
+  background-color: #f5f5f5 !important;
 }
 
-.dropdown-menu{
-  background-color:  #F5F5F5 !important;
+.offcanvas {
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu {
+  background-color: #f5f5f5 !important;
   border: none !important;
 }
-span .navbar-toggler-icon{
-  background-color: #389DDB !important;
+span .navbar-toggler-icon {
+  background-color: #389ddb !important;
 }
-.navbar-toggler{
-    
+.navbar-toggler {
   width: 20px;
   height: 20px;
   position: relative;
   transition: 0.5s ease-in-out;
 }
 
-.toggler-icon{
+.toggler-icon {
   width: 100%;
   height: 3px;
-  background-color: #389DDB;
+  background-color: #389ddb;
   display: block;
   position: absolute;
   border-radius: 1px;
@@ -114,141 +114,151 @@ span .navbar-toggler-icon{
 }
 
 /*when navigation is clicked*/
-.navbar-toggler .top-bar{
+.navbar-toggler .top-bar {
   margin-top: 7px;
-  transform: rotate(0deg)
-}
-.navbar-toggler .middle-bar{
-  margin-top:13.5px;
   transform: rotate(0deg);
 }
-.navbar-toggler .bottom-bar{
- margin-top: 0px;
- transform: rotate(0deg);
+.navbar-toggler .middle-bar {
+  margin-top: 13.5px;
+  transform: rotate(0deg);
+}
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(0deg);
 }
 /*state when navbar is collapsed*/
-.offcanvas-header .btn-close{
-  color: #389DDB !important;
+.offcanvas-header .btn-close {
+  color: #389ddb !important;
 }
-.nav-item{
-  margin-left: 20px !important
+.nav-item {
+  margin-left: 20px !important;
 }
-.nav-link{
- 
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: #000000 !important;
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000 !important;
 }
-.nav-link:hover{
-  color:#77BCD9 !important ;
-  
+.nav-link:hover {
+  color: #77bcd9 !important ;
 }
 /***************HERO SECTION******************/
-#hero{
-  background-color: #F4F9FB !important;
+#hero {
+  background-color: #f4f9fb !important;
 }
-.hero h5{
-  color: #77BCD9 !important ;
-  
+.hero h5 {
+  color: #77bcd9 !important ;
 }
-.hero h1{
-font-weight: 300 !important;
-line-height: 55px;
-letter-spacing: 0em;
-word-spacing: 2px;
-font-size: 50px;
-
+.hero h1 {
+  font-weight: 300 !important;
+  line-height: 55px;
+  letter-spacing: 0em;
+  word-spacing: 2px;
+  font-size: 50px;
 }
-.hero-text h1 span{
-color: #77BCD9 ;
+.hero-text h1 span {
+  color: #77bcd9;
 }
-.hero img{
-  float:right;
+.hero img {
+  float: right;
 }
-.hero p{
-  
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-}
-.hero a.btn{
- color:#ffffff;
-width: 197px;
-height: 57px;
-padding: 15px;
-background: #1B3A4C;
-border-radius: 4px;
-}
-.hero .line{
-  width: 80px;
-  height: 5px;
-  border-radius: 50px;
-  background-color: #77BCD9 !important;
-}
-/***************HERO SECTION ENDS******************/
-
-
-/***************GLAD YOU TOOK THE BOLD STEP ******************/
-#glad-you{
-  background-color: #F5F5F5;;
-}
-#glad-you p{
+.hero p {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
 }
-#glad-you a.btn{
-  color:#ffffff;
- width: 197px;
- height: 57px;
- padding: 15px;
- background: #1B3A4C;
- border-radius: 4px;
+.hero a.btn {
+  color: #ffffff;
+  width: 197px;
+  height: 57px;
+  padding: 15px;
+  background: #1b3a4c;
+  border-radius: 4px;
+}
+.hero .line {
+  width: 80px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #77bcd9 !important;
+}
+/***************HERO SECTION ENDS******************/
 
+/***************GLAD YOU TOOK THE BOLD STEP ******************/
+#glad-you {
+  background-color: #f5f5f5;
+}
+#glad-you p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#glad-you a.btn {
+  color: #ffffff;
+  width: 197px;
+  height: 57px;
+  padding: 15px;
+  background: #1b3a4c;
+  border-radius: 4px;
 }
 /***************GLAD YOU TOOK THE BOLD STEP ENDS******************/
 
-
-
+/* Subscribe Starts */
+.subscribe-btn {
+  background-color: #1b3a4c;
+  border-radius: 7px;
+}
+footer {
+  position: relative;
+}
+/* scroll up */
+#myBtn {
+  position: absolute;
+  bottom: 65px;
+  right: 10px;
+  cursor: pointer;
+}
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Laptop*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* STYLES GO HERE */
+  /* STYLES GO HERE */
 
-    #features h2 {
+  #features h2 {
+    font-size: 24px;
+  }
+  .footer-head {
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+  }
+}
 
-      font-size: 24px;
-    }
-  }
-  
-  /* For 640 Resolution - mobile */
-  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
-  }
-  
-  /* For 1024 Resolution - laptop 1 */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* STYLES GO HERE */
-  }
-  
-  /* For 1366 Resolution  -- laptop 2*/
-  @media only screen and (min-width: 1030px) and (max-width: 1366px) {
-    /* STYLES GO HERE */
-  }
-  
-  /** desktop screen */
-  @media only screen and (min-width: 1370px) and (max-width: 1605px) {
-    /* STYLES GO HERE */
-  }
-  
-  /*Ipad Orientation : Landscape */
-  @media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
-    /* STYLES GO HERE */
-  }
-  
-  /*ipad Orientation : Portrait */
-  @media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
-    /* STYLES GO HERE */
-  }
+/* For 640 Resolution - mobile */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+}
+
+/* For 1024 Resolution - laptop 1 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* STYLES GO HERE */
+}
+
+/* For 1366 Resolution  -- laptop 2*/
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  /* STYLES GO HERE */
+}
+
+/** desktop screen */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+  /* STYLES GO HERE */
+}
+
+/*Ipad Orientation : Landscape */
+@media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
+
+/*ipad Orientation : Portrait */
+@media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  /* STYLES GO HERE */
+}
