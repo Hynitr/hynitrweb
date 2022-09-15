@@ -4,13 +4,14 @@
 @font-face {
   font-family: hynitrfont;
   src: url(../font/Questrial-Regular.ttf);
-  font-weight: bold;
+  /* font-weight: bold; */
+  
 }
 
 @font-face {
   font-family: poppins;
   src: url(../font/Poppins-Black.ttf);
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 *,
@@ -58,7 +59,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Poppins";
+  font-family: "Poppins" !important;
+  
 }
 
 p {
@@ -151,7 +153,7 @@ span .navbar-toggler-icon {
   color: #77bcd9 !important ;
 }
 .hero h1 {
-  font-weight: 300 !important;
+  
   line-height: 55px;
   letter-spacing: 0em;
   word-spacing: 2px;
@@ -222,6 +224,7 @@ span .navbar-toggler-icon {
   height: 450px;
   width: 100%;
   padding: 30px;
+  font-family: 'Questrial';
 }
 
 /* Subscribe Starts */
@@ -249,14 +252,26 @@ footer {
     font-size: 24px;
   }
   .footer-head {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: large;
     margin-top: 10px;
   }
+  .hero a.btn {
+    display: flex !important;
+    justify-content: center  !important;
+
+  }
+  .hero .button{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .hero img {
+    float: inline-start;
 }
 
 /* For 640 Resolution - mobile */
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  
 }
 
 /* For 1024 Resolution - laptop 1 */
