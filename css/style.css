@@ -257,7 +257,9 @@ footer {
   .foot_div {
     margin-top: 20px;
   }
-
+  .achieve {
+    font-size: 2rem;
+  }
   .hero a.btn {
     display: flex !important;
     justify-content: center !important;
