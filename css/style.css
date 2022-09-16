@@ -246,18 +246,18 @@ footer {
 }
 /********** RESPONSIVENESS **********/
 
-/* For 480 Resolution - Laptop*/
+/* For 480 Resolution - Mobile*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* STYLES GO HERE */
 
   #features h2 {
     font-size: 24px;
   }
-  .footer-head {
-    font-weight: bold;
-    font-size: large;
-    margin-top: 10px;
+
+  .foot_div {
+    margin-top: 20px;
   }
+
   .hero a.btn {
     display: flex !important;
     justify-content: center !important;
