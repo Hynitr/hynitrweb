@@ -224,6 +224,100 @@ span .navbar-toggler-icon {
   font-family: "Questrial";
 }
 
+/* TEAM MEMBERS SECTION */
+/* ******************************** */
+#team-section {
+  position: relative;
+  padding: 4rem 0rem;
+  background-color: #F5F5F5;
+  
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+#team-section p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+#team-section .card {
+ padding: 10px;
+ background-color:  #EBEAED ;
+ width: 100%;
+ height: 250px;
+
+}
+.team__members {
+  margin-top: 5rem;
+  position: relative;
+  height: 200px;
+  width: 190px;
+  overflow-y: hidden;
+  transition: transform 2s ease;
+}
+
+@keyframes scroll {
+  from {
+    transform: translate(220px);
+    /* opacity: 0; */
+  }
+  to {
+    /* opacity: 0.4; */
+    transform: translate(0);
+  }
+}
+
+.team__members img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.member-details {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.9rem 1rem;
+  height: 0;
+  width: 100%;
+  background: #0D1D26;
+  color: #ffffff;
+  transition: height 0.3s ease-in-out;
+}
+
+.team__members:hover .member-details {
+  height: 118px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.role {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+#team-section  a{
+  height: 50px;
+  width: 140px;
+  background: transparent !important;
+  text-decoration: none;
+  font-weight: 400;
+  border: 1px solid #1B3A4C;
+  color: #1B3A4C !important;
+  border-radius: 8px;
+  padding: 12px !important;
+}
+#team-section a:hover  {
+  background-color: #1B3A4C !important;
+  color: #ffffff !important;
+}
+
+
 /* Subscribe Starts */
 .subscribe-btn {
   background-color: #1b3a4c;
