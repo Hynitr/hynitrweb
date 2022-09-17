@@ -234,6 +234,7 @@
 
   <!-------the team---------->
 
+
   <section class="team-section" id="team-section">
 
     <div class="container pt-5 pb-5">
@@ -313,11 +314,38 @@
     </div>
   
   </section>
+  <!-------the team ends---------->
+
+<!-- Achievements -->
+<section class="my-5 py-5" style="background-color: #114667;">
+<div class="row container text-white py-5 mx-auto achievements">
+  <div class="col-3" > 
+    <p class="fw-bold display-2 mt-3 text-center achieve" >1000+</p>
+    <p class="text-center my-3">Happy Clients</p>
+  </div>
+  <div class="col-3" >
+    <p class="fw-bold display-2 mt-3 text-center achieve">750+</p>
+    <p class="text-center my-3">Completed Projects</p>
+  </div>
+  <div class="col-3" >
+    <p class="fw-bold display-2 mt-3 text-center achieve">500k+</p>
+    <p class="text-center my-3">Transactions</p>
+  </div>
+  <div class="col-3" >
+    <p class="fw-bold display-2 mt-3 text-center achieve">6000+</p>
+    <p class="text-center my-3">Customers</p>
+  </div>
+</div>
+</section>
 
 
+     
+
+
+  <!-- Subscription section-->
     <section id="subscribe">
       <div class="text-center mx-auto my-5 py-5">
-        <p class="display-3">Subscribe To Our Newsletter</p>
+        <p class="display-3 ">Subscribe To Our Newsletter</p>
       </div>
 
       <div class="text-center mx-auto my-5 pb-5 w-100">
@@ -329,23 +357,27 @@
         </div>
       </div>
     </section>
+<!-- Subscription ends -->
 
+<!-- Testimonial section -->
     <section class="testimonials py-5 my-5">
       <div class="clientSay container">
-        <h1>What Our Clients Say</h1>
-        <h1 style="color: #1b3a4c">About Us</h1>
+        <p class="display-1 fw-bolder">What Our Clients Say</p>
+        <p class="display-2 fw-bolder" style="color: #1b3a4c" >About Us</>
         <br />
         <p class="fs-5 w-75" style="color: #1b3a4c">Our clients sends us bunch of smiles with our services and we love them. </p>
       </div>
     </section>
+<!-- Testimonial section ends -->
 
+<!-- Footer starts -->
     <footer class="pt-5 pb-3" style="background-color: #114667; line-height: 25px">
       <div class="row text-white container mx-auto">
         <div class="col-md-6 col-lg-3">
           <img src="img/footer-logo.svg" style="color: white" alt=""/>
 
           <p class="fs-5 mt-4">From Design, Strategy, Marketing, Development and Automation, We help business generate more sales and online confidence.</p>
-          <div class="mt-3">
+          <div class="mt-4 links">
             <a href="https://www.linkedin.com/company/hynitr" target="_blank" class="me-2"><img src="img/linkldn.svg" alt=""/></a>
             <a href="https://www.instagram.com/wearehynitr/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="me-2"><img src="img/instagram.svg" alt=""/></a>
             <a href="https://twitter.com/wearehynitr" target="_blank"class="me-2"><img src="img/twitter.svg" alt=""/></a>
@@ -353,24 +385,24 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <p class="fs-4 mt-3 mb-2 footer-head">Products</p>
+        <div class="col-md-6 col-lg-3 foot_div">
+          <p class="fw-bold mt-3 mb-2 footer-head" style="font-size: 2rem;">Products</p>
           <p><a href="#!" class="text-reset text-decoration-none fs-5">Automated Attendance Software</a>
           <p><a href="#!" class="text-reset text-decoration-none fs-5">School Management System</a></p>
           <p><a href="#!" class="text-reset text-decoration-none fs-5" >Bursary Software</a></p>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <p class="fw-bold mt-3 mb-2 fs-4 footer-head">Contact</p>
+        <div class="col-md-6 col-lg-3 foot_div">
+          <p class="fw-bold mt-3 mb-2 " style="font-size: 2rem;">Contact</p>
           <p class="fs-5"><i class="fas fa-home me-3 fs-5"></i> Ikole,Ekiti</p>
           <a href="mailto:hello@hynitr.com" class="text-decoration-none text-white fs-5"><i class="fas fa-envelope me-3 fs-5"></i> hello@hynitr.com</a >
           <p><a href="tel:" class="text-decoration-none text-white fs-5"><i class="fas fa-phone me-3 fs-5"></i> +2347055989591</a ></p>
           <a href="https://chat.whatsapp.com/E2fMPENeIsPBogac1PADkC" class="text-decoration-none text-white fs-5"><i class="fab fa-whatsapp me-3 fs-5"></i>+2349066584778</a >
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-3 foot_div">
           <!-- Links -->
-          <p class="mt-3 mb-2 fs-4 footer-head">Company</p>
+          <p class="mt-3 mb-2 fw-bold" style="font-size: 2rem;">Company</p>
           <p><a href="#" class="text-reset text-decoration-none fs-5">About Us</a ></p>
           <p><a href="#" class="text-reset text-decoration-none fs-5" >Services</a></p>
           <p><a href="#" class="text-reset text-decoration-none fs-5" >Community</a></p>
@@ -388,17 +420,25 @@
       <!-- Scroll up button -->
       <a href="index.html" id="myBtn" onclick="topFunction()"><img src="img/arrow-up.svg" style="background-color: #fff; border-radius: 50px"alt=""/></a>
     </footer>
-  </body>
-<script src="js/jquery.js"></script>
-  <script src=" js/index.js"></script>
+    <!-- Footer ends -->
+
+<!-- Script for arrow up -->
+<script>
+  let mybutton = document.getElementById('myBtn');
+  function topFunction(){
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For others(chrome,firefox,IE,opera)
+  }
+</script>
+
+<script src=" js/index.js"></script>
 <script src=" js/jquery.min.js "></script>
 <script src=" js/bootstrap.min.js "></script>
 <script src=" js/popper.min.js "></script>
 <script src=" js/fontawesome.min.js "></script>
 <!-- <script src="js/typed.js"></script> -->
-
   
-  </body>
+</body>
 
   
   <!-- <script src="js/typed.js"></script> -->
@@ -420,3 +460,17 @@
     });
   </script>-->
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
