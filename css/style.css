@@ -338,6 +338,9 @@ footer {
 .view-button {
   border: #0d1d2620 solid 1px;
 }
+footer .links img {
+ width: 30px !important;
+}
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Mobile*/
