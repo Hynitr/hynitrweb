@@ -152,15 +152,15 @@ span .navbar-toggler-icon {
 }
 .hero h1 {
  
-
+color: #0D1D26;
 font-family: 'Poppins';
 font-style: normal;
 font-size: 45px;
 line-height: 140%;
 margin-bottom: 0%;
 }
-.hero-text h1 span {
-  color: #77bcd9;
+.hero h1 span {
+  color: #77bcd9 !important;
 }
 
 .hero p {
@@ -339,10 +339,21 @@ width: 150px;
 
 
 /* Subscribe Starts */
+#subscribe input{
+  border: 1px solid  #1B3A4C;
+  background-color: #ffffff !important;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+#subscribe input.textarea{
+  background-color: #ffffff;
+}
 .subscribe-btn {
   background-color: #1b3a4c;
   border-radius: 7px;
-}
+ border: none;
+
 footer {
   position: relative;
 }
