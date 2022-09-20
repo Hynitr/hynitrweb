@@ -382,19 +382,19 @@ footer .links img {
 /********** RESPONSIVENESS **********/
 
 /* For 480 Resolution - Mobile*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   /* STYLES GO HERE */
   .hero .curved-line img{
     position: absolute !important;
     left: 38%;
-    top: 50%;
+    top: 58%;
     width: 150px;
   }
   #features h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .foot_div {
-    margin-top: 20px;
+    margin-top: 18px;
   }
   .achieve {
     font-size: 2rem;
@@ -403,13 +403,48 @@ footer .links img {
   }
 }
   /* For 640 Resolution - mobile */
-  @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
-
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
+    .hero .curved-line img{
+      position: absolute !important;
+      left: 24% !important;
+      top: 57%;
+      width: 150px;
+    }
+    .hero .line {
+    
+      top: 19.5%;
+      width: 80px;
+    }
+    
 }
-
+/* for macbook */
+@media only screen and (min-width:800px) and (max-width:1280px){
+  .hero .curved-line img{
+    position: absolute !important;
+    left: 38% !important;
+    top: 37.5%;
+    width: 150px;
+  }
+  .hero .line {
+   left: 7% !important;
+    top: 17.5%;
+    width: 80px;
+  }
+}
   /* For 1024 Resolution - laptop 1 */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* STYLES GO HERE */
+    .hero .curved-line img{
+      position: absolute !important;
+      left: 55%;
+      top: 30%;
+      width: 150px;
+    }
+    .hero .line {
+     left: 3% !important;
+      top: 15%;
+      width: 80px;
+    }
   }
 
   /* For 1366 Resolution  -- laptop 2*/
@@ -423,8 +458,19 @@ footer .links img {
   }
 
   /*Ipad Orientation : Landscape */
-  @media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
+  @media only screen and (orientation: landscape) and (min-device-pixel-ratio: 1) and (min-width: 768px) and (max-width: 1007px) {
     /* STYLES GO HERE */
+    .hero .curved-line img{
+      position: absolute !important;
+      left: 32%;
+      top: 50%;
+      width: 150px;
+    }
+    .hero .line {
+     left: 3% !important;
+      top: 19%;
+      width: 70px;
+    }
   }
 
   /*ipad Orientation : Portrait */
