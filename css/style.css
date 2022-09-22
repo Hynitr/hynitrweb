@@ -239,15 +239,7 @@ div.button .contact-btn{
 /* TEAM MEMBERS SECTION */
 /* ******************************** */
 #team-section {
- 
-  padding: 4rem 0rem;
-  background-color: #F5F5F5;
-  background-size: cover;
-  background-position: center;
-
-
-  
-
+  background-color: #F5F5F5;;
 }
 #team-section h1{
   color: #232425 !important;
@@ -259,9 +251,6 @@ div.button .contact-btn{
   font-weight: 400;
   line-height: 30px;
 }
-
-
-
   .team-card{
     border: 2px solid  #EBEAED;
     padding: 30px;
@@ -269,7 +258,6 @@ div.button .contact-btn{
     flex-wrap: wrap;
     display: none;
 }
-
 #team-section  a{
   height: 50px;
   width: 140px;
@@ -285,7 +273,7 @@ div.button .contact-btn{
   background-color: #1B3A4C !important;
   color: #ffffff !important;
 }
-
+/*team section ende*/
 
 /* Subscribe Starts */
 #subscribe input{
