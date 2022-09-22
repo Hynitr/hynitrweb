@@ -20,9 +20,9 @@ $(document).ready(function(){
 
   /*********view more********* */
   $(document).ready(function(){
-    $("#team-section .card").slice(0, 4).fadeIn();
+    $(".team-card").slice(0, 3).fadeIn();
     $("#viewall").click(function(){
-        $("#team-section .card").slice(0, 10).fadeIn();
+        $(".team-card").slice(0, 11).fadeIn();
         $(this).fadeOut();
     });
   });
