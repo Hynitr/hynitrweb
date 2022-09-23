@@ -306,21 +306,25 @@ div.button .contact-btn{
 .testimonials .card1{
  background-color: #ffffff;
   border-radius: 10px;
-  height: 300px;
+  height: 380px;
   width: 100%;
-  position:relative;
+  /* position:relative;
   top: -30%;
- right: 80px;
+ right: 20px; */
   
 }
-.testimonials .card2{
+/* .testimonials .card2{
 
   border: 2px solid rgba(102, 102, 102, 0.08); 
   filter: drop-shadow(0px 10px 5px rgba(119, 188, 217, 0.03));
   border-radius: 10px;
-  height: 300px;
+  height: 380px;
   width: 100%;
-}
+  position:relative;
+  top: 30%;
+ left: 40px; 
+
+} */
 footer {
   position: relative;
 }
