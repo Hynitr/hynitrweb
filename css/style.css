@@ -276,6 +276,9 @@ div.button .contact-btn{
 /*team section ende*/
 
 /* Subscribe Starts */
+#subscribe{
+  background-color: #F5F5F5;
+}
 #subscribe input{
   border: 1px solid  #1B3A4C;
   background-color: #ffffff !important;
@@ -291,7 +294,33 @@ div.button .contact-btn{
   border-radius: 7px;
  border: none;
 }
+#testimonials{
+  background-color: #F5F5F5;
+}
+.testimonials .slide img{
 
+  width: 50px;
+  margin-right: 20px;
+   
+}
+.testimonials .card1{
+ background-color: #ffffff;
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  position:relative;
+  top: -30%;
+ right: 80px;
+  
+}
+.testimonials .card2{
+
+  border: 2px solid rgba(102, 102, 102, 0.08); 
+  filter: drop-shadow(0px 10px 5px rgba(119, 188, 217, 0.03));
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+}
 footer {
   position: relative;
 }
