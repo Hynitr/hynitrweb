@@ -19,6 +19,12 @@
   /* font-weight: bold; */
 }
 
+@font-face {
+  font-family: interbold;
+  src: url(../font/Inter-ExtraBold.ttf);
+  /* font-weight: bold; */
+}
+
 *,
 *::before,
 *::after {
@@ -59,13 +65,6 @@ li {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Poppins" !important;
-}
 
 p {
   margin-top: 0;
@@ -73,18 +72,22 @@ p {
   font-family: "hynitrfont";
 }
 
+
 body {
   font-family: "Nunito", sans-serif;
   background-color: #ffffff;
 }
 
+
 section {
   margin: 0px;
 }
 
+
 .navbar {
   background-color: #F4F9FB !important;
 }
+
 
 .offcanvas {
   background-color: #f5f5f5;
@@ -169,6 +172,7 @@ span .navbar-toggler-icon {
   color: #77bcd9 !important;
   font-family: inter !important;
 }
+
 .hero h1 {
  
 color: #0D1D26;
@@ -200,12 +204,12 @@ margin-bottom: 0%;
   text-decoration: none !important;
 }
 
+
 .hero .find-btn:hover{
   background-color: transparent;
   border: 2px solid #1b3a4c;
   color: #1b3a4c;
 }
-
 
 .hero .line {
   width: 60px;
@@ -214,7 +218,6 @@ margin-bottom: 0%;
   border-radius: 50px;
   background-color: #77bcd9 !important;
 }
-
 
 .hero .mobilevieshow {
   display: block;
@@ -226,18 +229,35 @@ margin-bottom: 0%;
 
 /***************HERO SECTION ENDS******************/
 
+#round {
+
+  background-color: #77BCD9;
+  border-radius: 20px;
+  padding: 9%;
+
+}
+
+.card {
+
+  border-radius: 10px;
+}
+
+
 /***************GLAD YOU TOOK THE BOLD STEP ******************/
 #glad-you {
-  background-color: #f5f5f5;
+  background-color: #fff !important;
 }
+
 #glad-you h1{
-  font-family: 'Poppins';
+  font-family: 'interbold';
 }
+
 #glad-you p {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
 }
+
 div.button .contact-btn{
   color: #ffffff;
   width: 197px;
@@ -247,15 +267,17 @@ div.button .contact-btn{
   border-radius: 4px;
   text-decoration: none !important;
 }
+
 div.button .contact-btn:hover{
   background-color: transparent;
   border: 2px solid #1b3a4c;
   color: #1b3a4c;
 }
+
 /***************GLAD YOU TOOK THE BOLD STEP ENDS******************/
 
-/************AWESOME FEATURES*/
 
+/************AWESOME FEATURES*/
 #awesome-features {
   background-color: #f5f5f5;
   color: #0d1d26;
@@ -449,7 +471,19 @@ footer .links img {
       display: block;
     }
 
+    .gld {
 
+      margin-left: 0.5px;
+    }
+
+    #round2 {
+
+      background-color: #77BCD9;
+      width: 95%;
+      border-radius: 20px;
+      padding: 9%;
+    
+    }
 
 }
   /* For 640 Resolution - mobile */
